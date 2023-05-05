@@ -1,8 +1,9 @@
 ## TERMUX BACKUP RESTORATION
 ### Install the dependencies
 - Setup
-  - `apt update && apt upgrade`
-  - 
+  - `apt update && apt upgrade`.
+  -  Copy to corresponding directories ` cp -r .config $HOME/`, `cp -r .termux $HOME/`, and `cp -r scripts $HOME/`.
+  -  run `termux-reload-settings` to apply any changes.
 - Zsh
   - `pkg install zsh`
   - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
