@@ -14,4 +14,4 @@ using `source ~/.config/zsh/.zshrc` and comment down oh-my-zsh source
 
 ### Notes on symlink
 - 1. `$termux-setup-storage`.
-- 2. In `home` directory `mkdir Media && ln -sf /storage/shared/Media ~/Media `.
+- 2. In `home` directory|`ln -sf ~/storage/shared/Media ~/Media ` for symlink.
